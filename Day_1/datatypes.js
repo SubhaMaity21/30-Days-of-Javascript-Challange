@@ -23,6 +23,11 @@ const arr =["mouse","monitor","cpu"]
 
 console.table([typeof numOfApples,typeof favGadget,typeof isLoggedIn,typeof obj,typeof arr])
 
+console.log("favorite gadget is:",favGadget,'and datatype is:',typeof favGadget);
+
+console.log("is user looged in:",isLoggedIn,'and datatype is:',typeof isLoggedIn);
+
+console.log("My name is ",obj.name,"and I'm using",obj.language,'and datatype is:',typeof obj);
 
 // Activity 4
 let fruit ="banana"
@@ -38,3 +43,6 @@ console.log(flower);
  
 // flower = "rose"
 console.log(flower); //showing typeerror 
+
+// Feauture Request;
+ /* feauture is added between line no. 24-27 */
